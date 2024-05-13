@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyan Bazil Marketing website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            background-color: #cc4141;
+            color: #fff;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav {
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px; /* Added margin bottom to separate images */
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            margin: 5px;
+            background-color: #333;
+        }
+
+        /* Inline styles for the rating stars */
+        .rating {
+            display: inline-block;
+        }
+
+        .rating input {
+            display: none;
+        }
+
+        .rating label {
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            background-image: url("star.png"); /* Assuming you have an image for the star */
+            background-size: cover;
+            float: right;
+        }
+
+        .rating input:checked + label {
+            background-image: url("filled-star.png"); /* Assuming you have an image for the filled star */
+        }
+    </style>
+</head>
+<body>        
+    <header>
+        <h1>Tyan Bazil marketing website</h1>  
+        <p>Success is about hard work. Greatness will come.</p>
+    </header>
+    
+    <nav>
+        <img src="my web logo.png" alt="">
+        <img src="offers.png" alt="">
+        <img src="products.png" alt="">
+    </nav> 
+    
+    <main> 
+        <section id="About-us">
+            <h2>About Us</h2>
+            <p>+256788450174/
+                +256789312984 or
+                tyanbazil@gmail.com
+            </p>
+            <p>We are always available online to change your life.</p>
+            <p>The qualitative and best products ever to meet customers' demands, we offer the best for you.</p>
+            <nav>
+                <img src="HELP PAGE.png" alt="">
+            </nav>
+            <!-- Inline styles for the rating stars -->
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5">
+                <label for="star5"></label>
+                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star4"></label>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star3"></label>
+                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star2"></label>
+                <input type="radio" id="star1" name="rating" value="1">
+                <label for="star1"></label>
+            </div>
+        </section>
+        
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>ALL GARDEN TOOLS AVAILABLE</li>
+                <li>COSMETICS / JELLY</li>
+                <li>ALL ELECTRONICS</li>
+            </ul>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Categories.html">Categories</a></li>
+                    <li><a href="Account.HTML">Account</a></li>
+                    <li><a href="Feed.HTML">Feed</a></li>
+                    <li><a href="Help.HTML">Help</a></li>
+                </ul>
+            </nav>
+        </section>
+        
+        <section id="social-links">
+            <h2>Connect with Us</h2>
+            <ul>
+                <li><a href="www.facebook.com">Facebook</a></li>
+                <li><a href="www.whatsapp.com">WhatsApp</a></li>
+                <li><a href="www.twitter.com">Twitter</a></li>
+                <li><a href="www.Imo.com">Imo</a></li>
+                <li><a href="www.TikTok.com">TikTok</a></li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <a href="NEXT.HTML">Next</a>
+        <p>Copyright Tyan Bazil. All rights reserved by Tyan Bazil.</p>
+    </footer>
+</body>
+</html>
+

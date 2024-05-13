@@ -1,0 +1,207 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+body {
+    background-color: rgb(11, 179, 25);
+    padding: 0%;
+    background-image:url("FEEDS\ PAGE.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+/* Style the header */
+header {
+    background-color: #a4d816;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: 300;
+    margin: 0035px0;
+    font-family:monospace;
+}
+image  {
+    background-color: blue;
+ }
+
+ img {
+    max-width: 100%;
+    padding: 0%;
+
+ }   
+
+ search {
+    display: inline-block;
+    background-color: blue;
+    color: aliceblue;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 0;
+
+ }
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    flex: 1;
+    color: rgb(47, 0, 255);
+    text-decoration: none;
+    margin: middle;
+}
+
+/* Style the main section */
+main {
+    padding: 20px;
+}
+
+/* Style the login form */
+#login {
+    background-color: f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#login form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px0;
+}
+
+#login form label {
+    margin-bottom: 10px;
+}
+
+#login form input[type="text"],
+#login form input[type="password"],
+#login form button {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+
+.rating input {
+    display: none;
+  }
+  
+  .rating label {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-image: url('star.png');
+    background-size: cover;
+  }
+  
+  .rating input:checked ~ label {
+    background-image: url('star-filled.png');
+  }
+
+/* Style the About-us section */
+#About-us {
+    margin-bottom: 20px;
+}
+
+/* Style the services section */
+#services {
+    margin-bottom: 20px;
+}
+
+#services ul {
+    list-style-type: none;
+}
+
+#services ul li {
+    margin-bottom: 10px;
+}
+
+/* Style the social links section */
+#social-links {
+    margin-bottom: 50px;
+
+}
+
+#social-links ul {
+    list-style-type: none;
+}
+
+#social-links ul li {
+    margin-bottom: 40px;
+}
+
+/* Style the footer */
+footer {
+    background-color: rgb(3, 32, 32);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/* Styles for the search form */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Style for the search input */
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px; /* Adjust width as needed */
+}
+
+/* Style for the search button */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px; /* Adjust spacing between input and button */
+}
+
+/* Hover effect for the search button */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+}
+/* Define the keyframes for the animation */
+@keyframes slide {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(50px); }
+    100% { transform: translateX(0); }
+}
+
+/* Apply animation to the image */
+nav img {
+    animation: slide 5s infinite;
+}
+
+/* Define the keyframes for the animation */
+@keyframes enlarge {
+    0% { transform: scaleX(1); }
+    50% { transform: scaleX(1.1); }
+    100% { transform: scaleX(1); }
+}
+
+/* Apply animation to the image */
+img {
+    animation: enlarge 5s infinite;
+
